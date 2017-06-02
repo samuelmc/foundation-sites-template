@@ -10,7 +10,11 @@
   "homepage": "http://foundation.zurb.com",
   "dependencies": {
     "foundation-sites": "~6.3.0",
-    "motion-ui": "~1.2.2"
+    "motion-ui": "~1.2.2",
+    "font-awesome": "^4.7.0",
+    "foundation-datepicker-plugin": "^1.1.1",
+    "foundation-select": "^1.3.0",
+    "spin.js": "^2.3.2"
   },
   "ignore": [
     "**/.*",
