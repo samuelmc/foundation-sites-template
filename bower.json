@@ -1,10 +1,11 @@
 {
-  "name": "foundation-sites-template",
+  "name": "foundation-symfony-template",
   "version": "1.0.0",
   "authors": [
-    "ZURB <foundation@zurb.com>"
+    "ZURB <foundation@zurb.com>",
+    "Samuel Moncarey <samuel.moncarey1991@gmail.com>"
   ],
-  "description": "Basic template for a new Foundation for Sites project.",
+  "description": "Basic template for a new Foundation for Symfony project.",
   "main": "index.html",
   "license": "MIT",
   "homepage": "http://foundation.zurb.com",
