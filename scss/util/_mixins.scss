@@ -1,0 +1,14 @@
+@mixin gutter-calc(
+  $properties: (),
+  $multiplier: 1
+) {
+  @each $breakpoint, $value in $grid-column-gutter {
+    $size: rem-calc($value) * $multiplier;
+
+    @include breakpoint($breakpoint) {
+      @each $prop in $properties {
+        #{$prop}: $size;
+      }
+    }
+  }
+}
